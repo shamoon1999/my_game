@@ -13,7 +13,7 @@ var jumpSound, dieSound;
 function preload() {
     man_running = loadAnimation("man-1.jpg", "man-2.jpg", "man-3.jpg");
     man_collided = loadAnimation("man_collided.jpg");
-    roadImage = loadImage("road.png");
+    roadImage = loadImage("Road.png");
     gameoverimg = loadImage("gameOver.png");
     restartimg = loadImage("restart.png");
     obstacle1 = loadImage("obstacle-1.png")
